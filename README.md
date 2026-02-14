@@ -61,3 +61,7 @@ Things that do NOT belong here:
 
 Below is an example of how models are tested in this lab.
 
+
+## Learning Roadmap
+
+- [290-Day AI/ML + Software Engineering Roadmap](ROADMAP_290_DAYS.md)
