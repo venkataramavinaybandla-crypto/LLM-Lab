@@ -1,0 +1,27 @@
+OBSERVATION – EXPERIMENT 6
+
+Title: Decision Trees, Splitting Criteria, CCP Pruning and Depth Sweep
+
+Dataset: John Wick Universe Synthetic Dataset
+
+The John Wick Universe Synthetic Dataset was loaded using Pandas from the specified CSV file path. The dataset was inspected to understand its structure, dimensions, numerical and categorical attributes, missing values, duplicate records, and descriptive statistics.
+
+The numerical and categorical features were identified separately. The categorical features were encoded using One-Hot Encoding, while the numerical features were standardized. The dataset was divided into training and testing sets using an 80:20 split.
+
+A Decision Tree Classifier was implemented using two different splitting criteria: Gini Index and Entropy. The performance of both splitting criteria was evaluated using Accuracy, Precision, Recall, and F1 Score.
+
+The Gini Index was used to measure the impurity of the nodes during tree construction. Entropy and Information Gain were used as an alternative splitting criterion. The results obtained from both criteria were compared to observe their effect on classification performance.
+
+Confusion matrices were generated to visualize the classification performance of the Decision Tree models. Decision Tree structures were also visualized to understand how the features were used for making classification decisions.
+
+Cost-Complexity Pruning (CCP) was implemented to reduce the complexity of the Decision Tree and control overfitting. Different CCP alpha values were evaluated by comparing training and testing accuracy. The tree depth and number of leaf nodes were also observed for different pruning levels.
+
+A maximum-depth sweep was performed by training Decision Tree models with different maximum depth values. Training and testing accuracy were compared to study the effect of tree depth on model performance and to identify a suitable tree depth.
+
+Feature importance was calculated from the Decision Tree model, and the most influential features were visualized using a bar chart. Additional visualizations such as the target distribution, numerical feature distributions, correlation heatmap, confusion matrices, pruning curves, and depth-performance curves were generated during the analysis.
+
+An EDA report was generated containing the important visualizations and observations obtained during the experiment.
+
+Result:
+
+Decision Tree classification was successfully implemented using Gini Index and Entropy as splitting criteria. Cost-Complexity Pruning was successfully applied to control tree complexity, and a depth sweep was performed to study the effect of maximum tree depth on model performance. The models were evaluated using standard classification metrics, and the effect of splitting criteria, pruning, and tree depth on Decision Tree performance was observed successfully.
