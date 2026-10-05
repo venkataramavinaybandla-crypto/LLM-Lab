@@ -1,0 +1,131 @@
+{
+  "dataset": "OnePiece-Bounty_-_Sheet1.csv",
+  "rows_raw": 165,
+  "rows_clean": 165,
+  "columns_raw": [
+    "S.no",
+    "Name ",
+    "Bounty"
+  ],
+  "columns_clean": [
+    "Rank",
+    "Name",
+    "Bounty_Berry",
+    "Bounty_Billions",
+    "Bounty_Log10",
+    "Bounty_Known",
+    "Currency_Fixed",
+    "Bounty_Outlier"
+  ],
+  "known_bounties": 145,
+  "unknown_bounties": 20,
+  "issues_resolved": {
+    "Headers standardised": 3,
+    "Names tidied": 0,
+    "Duplicate pirates removed": 0,
+    "Bounty strings parsed to numbers": 145,
+    "Wrong currency symbols fixed": 1,
+    "Unknown bounties flagged (not imputed)": 20,
+    "Placeholder ranks (999) nulled": 20,
+    "Rank mismatches rebuilt": 0,
+    "Outliers flagged (log IQR)": 2
+  },
+  "outlier_fences_log10": {
+    "lower": 5.8782,
+    "upper": 10.1026
+  },
+  "skewness": {
+    "raw_berry": 4.28,
+    "log10": -2.444,
+    "log10_without_outliers": 0.026
+  },
+  "outliers": [
+    "Bepo",
+    "Tony Tony Chopper"
+  ],
+  "highest_bounty": {
+    "name": "Gol D. Roger",
+    "berry": 5564800000
+  },
+  "median_known_berry": 94000000.0,
+  "total_known_berry": 56093860600.0,
+  "pipeline_log": [
+    {
+      "step": "Load raw data",
+      "rows": 165,
+      "cols": 3,
+      "nulls": 0,
+      "note": "columns=['S.no', 'Name ', 'Bounty']"
+    },
+    {
+      "step": "Standardise headers",
+      "rows": 165,
+      "cols": 3,
+      "nulls": 0,
+      "note": "['S.no', 'Name ', 'Bounty'] -> ['Source_Rank', 'Name', 'Bounty_Raw']"
+    },
+    {
+      "step": "Clean text fields",
+      "rows": 165,
+      "cols": 3,
+      "nulls": 0,
+      "note": "names changed=0"
+    },
+    {
+      "step": "Remove duplicate names",
+      "rows": 165,
+      "cols": 3,
+      "nulls": 0,
+      "note": "duplicates removed=0"
+    },
+    {
+      "step": "Parse bounty strings",
+      "rows": 165,
+      "cols": 5,
+      "nulls": 20,
+      "note": "symbols found={'฿': 144, 'UNKNOWN': 20, '¥': 1}"
+    },
+    {
+      "step": "Currency sanity check",
+      "rows": 165,
+      "cols": 6,
+      "nulls": 20,
+      "note": "fixed=[['Mikio Itoo', '¥1,000,000']]"
+    },
+    {
+      "step": "Flag unknown bounties",
+      "rows": 165,
+      "cols": 7,
+      "nulls": 20,
+      "note": "unknown=20"
+    },
+    {
+      "step": "Rebuild rank",
+      "rows": 165,
+      "cols": 7,
+      "nulls": 40,
+      "note": "old S.no mismatches=0, 999 placeholders=20"
+    },
+    {
+      "step": "Sort + scale bounty",
+      "rows": 165,
+      "cols": 9,
+      "nulls": 80,
+      "note": "added Bounty_Billions, Bounty_Log10"
+    },
+    {
+      "step": "Flag outliers",
+      "rows": 165,
+      "cols": 10,
+      "nulls": 80,
+      "note": "fences(log10)=[5.88, 10.10] flagged=2"
+    },
+    {
+      "step": "Validation passed",
+      "rows": 165,
+      "cols": 8,
+      "nulls": 80,
+      "note": "5 integrity assertions OK"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+Rank,Name,Bounty_Berry,Bounty_Billions,Bounty_Log10,Bounty_Known,Currency_Fixed,Bounty_Outlier
+1,Gol D. Roger,5564800000,5.5648,9.7454,True,False,False
+2,Edward Newgate,5046000000,5.046,9.7029,True,False,False
+3,Kaidou,4611100000,4.6111,9.6638,True,False,False
+4,Charlotte Linlin,4388000000,4.388,9.6423,True,False,False
+5,Shanks,4048900000,4.0489,9.6073,True,False,False
+6,Marshall D. Teach,2247600000,2.2476,9.3517,True,False,False
+7,Monkey D. Luffy,1500000000,1.5,9.1761,True,False,False
+8,King,1390000000,1.39,9.143,True,False,False
+9,Marco,1374000000,1.374,9.138,True,False,False
+10,Queen,1320000000,1.32,9.1206,True,False,False
+11,Charlotte Katakuri,1057000000,1.057,9.0241,True,False,False
+12,Jack,1000000000,1.0,9.0,True,False,False
+13,Charlotte Smoothie,932000000,0.932,8.9694,True,False,False
+14,Charlotte Cracker,860000000,0.86,8.9345,True,False,False
+15,Charlotte Perospero,700000000,0.7,8.8451,True,False,False
+16,Sabo,602000000,0.602,8.7796,True,False,False
+17,Charlotte Snack,600000000,0.6,8.7782,True,False,False
+18,Little Oars Jr.,550000000,0.55,8.7404,True,False,False
+18,Portgas D. Ace,550000000,0.55,8.7404,True,False,False
+20,Who's-Who,546000000,0.546,8.7372,True,False,False
+21,Chinjao,542000000,0.542,8.734,True,False,False
+22,Izou,510000000,0.51,8.7076,True,False,False
+23,Trafalgar D. Water Law,500000000,0.5,8.699,True,False,False
+24,Black Maria,480000000,0.48,8.6812,True,False,False
+24,Edward Weevil,480000000,0.48,8.6812,True,False,False
+26,Sasaki,472000000,0.472,8.6739,True,False,False
+27,Eustass Kid,470000000,0.47,8.6721,True,False,False
+28,Belo Betty,457000000,0.457,8.6599,True,False,False
+29,Jinbe,438000000,0.438,8.6415,True,False,False
+30,Tamago,429000000,0.429,8.6325,True,False,False
+31,Karasu,400000000,0.4,8.6021,True,False,False
+31,Ulti,400000000,0.4,8.6021,True,False,False
+33,Pedro,382000000,0.382,8.5821,True,False,False
+34,Capone Bege,350000000,0.35,8.5441,True,False,False
+34,Scratchmen Apoo,350000000,0.35,8.5441,True,False,False
+36,Donquixote Doflamingo,340000000,0.34,8.5315,True,False,False
+37,Cavendish,330000000,0.33,8.5185,True,False,False
+37,Pekoms,330000000,0.33,8.5185,True,False,False
+37,Vinsmoke Sanji,330000000,0.33,8.5185,True,False,False
+40,Basil Hawkins,320000000,0.32,8.5051,True,False,False
+40,Gecko Moria,320000000,0.32,8.5051,True,False,False
+40,Roronoa Zoro,320000000,0.32,8.5051,True,False,False
+43,Lindbergh,316000000,0.316,8.4997,True,False,False
+44,Caesar Clown,300000000,0.3,8.4771,True,False,False
+44,Charlotte Daifuku,300000000,0.3,8.4771,True,False,False
+44,Charlotte Oven,300000000,0.3,8.4771,True,False,False
+47,Bartholomew Kuma,296000000,0.296,8.4713,True,False,False
+48,Morley,293000000,0.293,8.4669,True,False,False
+49,Page One,290000000,0.29,8.4624,True,False,False
+50,Fisher Tiger,230000000,0.23,8.3617,True,False,False
+51,X Drake,222000000,0.222,8.3464,True,False,False
+52,Caribou,210000000,0.21,8.3222,True,False,False
+52,Sai,210000000,0.21,8.3222,True,False,False
+52,Squard,210000000,0.21,8.3222,True,False,False
+55,Bartolomeo,200000000,0.2,8.301,True,False,False
+55,Killer,200000000,0.2,8.301,True,False,False
+55,Usopp,200000000,0.2,8.301,True,False,False
+58,Bellamy,195000000,0.195,8.29,True,False,False
+59,Coribou,190000000,0.19,8.2788,True,False,False
+60,Orlumbus,148000000,0.148,8.1703,True,False,False
+61,Jewelry Bonney,140000000,0.14,8.1461,True,False,False
+62,Nico Robin,130000000,0.13,8.1139,True,False,False
+63,Charlotte Mont-d'Or,120000000,0.12,8.0792,True,False,False
+64,Urouge,108000000,0.108,8.0334,True,False,False
+65,Bobbin,105500000,0.1055,8.0233,True,False,False
+66,Brogy,100000000,0.1,8.0,True,False,False
+66,Dorry,100000000,0.1,8.0,True,False,False
+68,Diamante,99000000,0.099,7.9956,True,False,False
+68,Pica,99000000,0.099,7.9956,True,False,False
+68,Trebol,99000000,0.099,7.9956,True,False,False
+71,Vito,95000000,0.095,7.9777,True,False,False
+72,Franky,94000000,0.094,7.9731,True,False,False
+72,Rockstar,94000000,0.094,7.9731,True,False,False
+74,Albion,92000000,0.092,7.9638,True,False,False
+75,Gotti,90000000,0.09,7.9542,True,False,False
+76,Lip Doughty,88000000,0.088,7.9445,True,False,False
+77,Brook,83000000,0.083,7.9191,True,False,False
+78,Crocodile,81000000,0.081,7.9085,True,False,False
+79,Chadros Higelyges,80060000,0.0801,7.9034,True,False,False
+80,Boa Hancock,80000000,0.08,7.9031,True,False,False
+81,Nico Olvia,79000000,0.079,7.8976,True,False,False
+82,Daz Bones,75000000,0.075,7.8751,True,False,False
+82,Raccoon,75000000,0.075,7.8751,True,False,False
+84,Gyro,73000000,0.073,7.8633,True,False,False
+85,Doc Q,72000000,0.072,7.8573,True,False,False
+86,Gambia,67000000,0.067,7.8261,True,False,False
+86,Suleiman,67000000,0.067,7.8261,True,False,False
+88,Nami,66000000,0.066,7.8195,True,False,False
+89,Van Augur,64000000,0.064,7.8062,True,False,False
+90,Lao G,61000000,0.061,7.7853,True,False,False
+91,Devil Dias,60000000,0.06,7.7782,True,False,False
+92,Senor Pink,58000000,0.058,7.7634,True,False,False
+93,Kelly Funk,57000000,0.057,7.7559,True,False,False
+94,(pirate shot by Demaro Black in chapter 598),55000000,0.055,7.7404,True,False,False
+95,Peachbeard,52000000,0.052,7.716,True,False,False
+96,(pirate defeated by Smoker in chapter 439),50000000,0.05,7.699,True,False,False
+97,Laffitte,42200000,0.0422,7.6253,True,False,False
+98,(criminal defeated by Mr. 3),42000000,0.042,7.6232,True,False,False
+98,Roshio,42000000,0.042,7.6232,True,False,False
+100,Boa Marigold,40000000,0.04,7.6021,True,False,False
+100,Boa Sandersonia,40000000,0.04,7.6021,True,False,False
+102,Sarquiss,38000000,0.038,7.5798,True,False,False
+103,Bobby Funk,36000000,0.036,7.5563,True,False,False
+103,Mikazuki,36000000,0.036,7.5563,True,False,False
+103,Shoujou,36000000,0.036,7.5563,True,False,False
+106,Zala,35000000,0.035,7.5441,True,False,False
+107,Bentham,32000000,0.032,7.5051,True,False,False
+108,Gladius,31000000,0.031,7.4914,True,False,False
+109,Marianne,29000000,0.029,7.4624,True,False,False
+110,Demaro Black,26000000,0.026,7.415,True,False,False
+111,Mont Blanc Cricket,25000000,0.025,7.3979,True,False,False
+112,Charlotte Lola,24000000,0.024,7.3802,True,False,False
+112,Foxy,24000000,0.024,7.3802,True,False,False
+112,Galdino,24000000,0.024,7.3802,True,False,False
+115,Masira,23000000,0.023,7.3617,True,False,False
+116,Arlong,20000000,0.02,7.301,True,False,False
+116,Jesus Burgess,20000000,0.02,7.301,True,False,False
+116,Rock (Yeti),20000000,0.02,7.301,True,False,False
+116,Scotch (Yeti),20000000,0.02,7.301,True,False,False
+120,Krieg,17000000,0.017,7.2304,True,False,False
+120,Lacuba,17000000,0.017,7.2304,True,False,False
+122,Kuro,16000000,0.016,7.2041,True,False,False
+123,Buggy,15000000,0.015,7.1761,True,False,False
+123,Dellinger,15000000,0.015,7.1761,True,False,False
+125,Bluejam,14300000,0.0143,7.1553,True,False,False
+126,Drophy,14000000,0.014,7.1461,True,False,False
+127,Gin,12000000,0.012,7.0792,True,False,False
+128,Machvise,11000000,0.011,7.0414,True,False,False
+129,Gem,10000000,0.01,7.0,True,False,False
+129,Wellington,10000000,0.01,7.0,True,False,False
+131,Jango,9000000,0.009,6.9542,True,False,False
+131,Kuroobi,9000000,0.009,6.9542,True,False,False
+133,Hatchan,8000000,0.008,6.9031,True,False,False
+133,Higuma,8000000,0.008,6.9031,True,False,False
+135,Curly Dadan,7800000,0.0078,6.8921,True,False,False
+136,Mikita,7500000,0.0075,6.8751,True,False,False
+137,Buchi,7000000,0.007,6.8451,True,False,False
+137,Sham,7000000,0.007,6.8451,True,False,False
+139,Chew,5500000,0.0055,6.7404,True,False,False
+140,Alvida,5000000,0.005,6.699,True,False,False
+141,Porchemy,3400000,0.0034,6.5315,True,False,False
+142,Babe,3200000,0.0032,6.5051,True,False,False
+143,Mikio Itoo,1000000,0.001,6.0,True,True,False
+144,Bepo,500,0.0,2.699,True,False,True
+145,Tony Tony Chopper,100,0.0,2.0,True,False,True
+,Aladdin,,,,False,False,False
+,Avalo Pizarro,,,,False,False,False
+,Benn Beckman,,,,False,False,False
+,Catarina Devon,,,,False,False,False
+,Crocus,,,,False,False,False
+,Dracule Mihawk,,,,False,False,False
+,Inazuma,,,,False,False,False
+,Jozu,,,,False,False,False
+,Koala,,,,False,False,False
+,Kozuki Oden,,,,False,False,False
+,Lucky Roux,,,,False,False,False
+,Monkey D. Dragon,,,,False,False,False
+,Sanjuan Wolf,,,,False,False,False
+,Shiryu,,,,False,False,False
+,Silvers Rayleigh,,,,False,False,False
+,Vasco Shot,,,,False,False,False
+,Vista,,,,False,False,False
+,Yasopp,,,,False,False,False
+,Yorki,,,,False,False,False
+,Zeff,,,,False,False,False
