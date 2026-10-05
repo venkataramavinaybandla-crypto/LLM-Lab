@@ -1,0 +1,11 @@
+Feature,Meaning,Type
+name_length,Total characters in name,Numeric
+word_count,Number of words,Numeric
+uppercase_count,Number of uppercase letters,Numeric
+vowel_count,Number of vowels,Numeric
+consonant_count,Number of consonants,Numeric
+vowel_ratio,Vowels divided by name length,Numeric
+has_initial,Presence of an initial,Binary
+has_d,Presence of D.,Binary
+has_title,Presence of selected title,Binary
+name_word_max,Length of longest word,Numeric

@@ -1,0 +1,15 @@
+Metric,Value
+Raw records,165.0
+Usable Berry records,144.0
+Unknown bounty records,20.0
+Yen records,1.0
+Duplicate rows,0.0
+Minimum bounty,100.0
+Median bounty,94000000.0
+Mean bounty,389533754.1666667
+Maximum bounty,5564800000.0
+Bounty skewness,4.26530519243157
+Bounty kurtosis,18.891366962789338
+High-bounty threshold,332500000.0
+Standard bounty count,108.0
+High bounty count,36.0

@@ -1,0 +1,74 @@
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         CASE FILE: THE BOUNTY INCIDENT                      ║
+║                            EDA FORENSIC REPORT                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+CASE STATUS
+-----------
+Dataset: OnePiece-Bounty - Sheet1.csv
+Raw records: 165
+Usable Berry records: 144
+Unknown bounty records: 20
+Yen records excluded: 1
+Complete duplicate rows: 0
+
+BOUNTY AUTOPSY
+--------------
+Minimum bounty: 100
+Median bounty: 94,000,000
+Mean bounty: 389,533,754.17
+Maximum bounty: 5,564,800,000
+Skewness: 4.2653
+Kurtosis: 18.8914
+
+CLASSIFICATION DIVIDING LINE
+----------------------------
+75th percentile threshold: 332,500,000 Berries
+
+Classification rule:
+Bounty >= 332,500,000 -> HIGH BOUNTY
+Bounty <  332,500,000 -> STANDARD BOUNTY
+
+CLASS COUNTS
+------------
+Standard Bounty: 108
+High Bounty: 36
+
+TOP POSITIVE SIGNALS
+--------------------
+has_initial        0.328502
+has_d              0.328502
+uppercase_count    0.278236
+
+TOP NEGATIVE SIGNALS
+--------------------
+vowel_ratio      0.004051
+name_word_max    0.052324
+word_count       0.105986
+
+FEATURES
+--------
+- name_length
+- word_count
+- uppercase_count
+- vowel_count
+- consonant_count
+- vowel_ratio
+- has_initial
+- has_d
+- has_title
+- name_word_max
+
+EDA CONCLUSION
+--------------
+The bounty distribution is highly non-uniform, motivating explicit
+classification rather than treating raw bounty values as a balanced target.
+
+The 75th percentile creates a data-driven binary target. Feature engineering
+extracts structural information from pirate names so that Logistic Regression
+can estimate the probability of belonging to the High-Bounty class.
+
+The correlation table is descriptive evidence only. Final judgement of
+predictive usefulness is reserved for train/test evaluation and
+cross-validation.

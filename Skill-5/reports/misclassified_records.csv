@@ -1,0 +1,9 @@
+S.no,Name,Bounty,bounty,class_name,high_bounty,name_length,probability_high_bounty,predicted_class,decision_threshold,prediction_status,correct,error_type
+5,Shanks,"฿4,048,900,000",4048900000.0,HIGH BOUNTY,1,6,0.0901958107419354,Standard Bounty,0.5,Test,False,False Negative
+9,Marco,"฿1,374,000,000",1374000000.0,HIGH BOUNTY,1,5,0.24927867474912924,Standard Bounty,0.5,Test,False,False Negative
+28,Belo Betty,"฿457,000,000",457000000.0,HIGH BOUNTY,1,10,0.4041070981092184,Standard Bounty,0.5,Test,False,False Negative
+33,Pedro,"฿382,000,000",382000000.0,HIGH BOUNTY,1,5,0.24927867474912924,Standard Bounty,0.5,Test,False,False Negative
+37,Vinsmoke Sanji,"฿330,000,000",330000000.0,STANDARD BOUNTY,0,14,0.5977286376075295,High Bounty,0.5,Test,False,False Positive
+89,Van Augur,"฿64,000,000",64000000.0,STANDARD BOUNTY,0,9,0.5346726387427823,High Bounty,0.5,Test,False,False Positive
+100,Boa Marigold,"฿40,000,000",40000000.0,STANDARD BOUNTY,0,12,0.5712585434936065,High Bounty,0.5,Test,False,False Positive
+111,Mont Blanc Cricket,"฿25,000,000",25000000.0,STANDARD BOUNTY,0,18,0.7478620474724123,High Bounty,0.5,Test,False,False Positive

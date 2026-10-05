@@ -1,0 +1,70 @@
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         CASE FILE: THE BOUNTY INCIDENT                      ║
+║                     SKILL-5 LOGISTIC REGRESSION REPORT                     ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+DATASET
+-------
+OnePiece-Bounty - Sheet1.csv
+
+RAW RECORDS
+-----------
+165
+
+USABLE BERRY RECORDS
+--------------------
+144
+
+CLASSIFICATION THRESHOLD
+------------------------
+332,500,000 Berries
+
+MODEL
+-----
+StandardScaler + LogisticRegression
+
+TEST VERDICT
+------------
+Accuracy          : 0.7241
+Precision         : 0.4286
+Recall            : 0.4286
+F1 Score          : 0.4286
+ROC AUC           : 0.6364
+Average Precision : 0.6082
+Log Loss          : 0.5372
+
+BEST F1 THRESHOLD
+-----------------
+0.76
+
+CROSS-VALIDATION
+----------------
+Accuracy          : 0.7236 ± 0.1145
+Precision         : 0.4656 ± 0.2267
+Recall            : 0.5071 ± 0.3133
+F1                : 0.4543 ± 0.2412
+ROC AUC           : 0.7262 ± 0.1379
+
+OUT-OF-FOLD ROC AUC
+-------------------
+0.6844
+
+MISCLASSIFICATIONS
+------------------
+8
+
+EDA CONCLUSION
+--------------
+The bounty distribution is strongly uneven, making direct classification
+threshold selection important. The 75th percentile creates a data-driven
+High-Bounty class.
+
+The engineered name-based features provide the evidence presented to the
+Logistic Regression classifier. Correlation is treated as exploratory
+evidence, while cross-validation and held-out testing provide the actual
+evaluation.
+
+FINAL STATUS
+------------
+CASE CLOSED — MODEL TRAINED AND EXPORTED

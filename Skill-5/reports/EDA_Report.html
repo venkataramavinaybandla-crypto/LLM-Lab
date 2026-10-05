@@ -1,0 +1,354 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Skill-5 | EDA Forensic Report</title>
+<style>
+body {
+    background:#080808;
+    color:#f1f1f1;
+    font-family:Arial,Helvetica,sans-serif;
+    margin:0;
+    padding:40px;
+}
+.container {
+    max-width:1200px;
+    margin:auto;
+}
+.header {
+    border:1px solid #9e1b32;
+    background:#111;
+    padding:35px;
+    box-shadow:0 0 30px rgba(193,18,31,.18);
+}
+.case {
+    color:#c1121f;
+    letter-spacing:4px;
+    font-size:13px;
+}
+h1 {
+    font-size:42px;
+    margin:12px 0;
+}
+h2 {
+    color:#c1121f;
+    border-left:5px solid #c1121f;
+    padding-left:14px;
+    margin-top:50px;
+}
+.grid {
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:15px;
+}
+.card {
+    background:#151515;
+    border:1px solid #39424e;
+    padding:20px;
+}
+.value {
+    font-size:26px;
+    font-weight:bold;
+    color:#d4a017;
+}
+table {
+    width:100%;
+    border-collapse:collapse;
+    background:#111;
+}
+th,td {
+    padding:12px;
+    border-bottom:1px solid #39424e;
+    text-align:left;
+}
+th {
+    color:#c1121f;
+}
+.alert {
+    border:1px solid #9e1b32;
+    background:#220b10;
+    padding:22px;
+    margin-top:25px;
+}
+pre {
+    white-space:pre-wrap;
+    background:#111;
+    padding:20px;
+    border:1px solid #39424e;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+<div class="case">CLASSIFIED // FORENSIC ANALYSIS // SKILL-5</div>
+<h1>CASE FILE: THE BOUNTY INCIDENT</h1>
+<p>Exploratory Data Analysis Report</p>
+</div>
+
+<h2>CASE SUMMARY</h2>
+
+<div class="grid">
+<div class="card">
+<div>RAW RECORDS</div>
+<div class="value">165</div>
+</div>
+<div class="card">
+<div>USABLE RECORDS</div>
+<div class="value">144</div>
+</div>
+<div class="card">
+<div>HIGH BOUNTY</div>
+<div class="value">36</div>
+</div>
+<div class="card">
+<div>THRESHOLD</div>
+<div class="value">332,500,000</div>
+</div>
+</div>
+
+<h2>BOUNTY AUTOPSY</h2>
+
+<table>
+<tr><th>Statistic</th><th>Value</th></tr>
+<tr><td>Minimum</td><td>100</td></tr>
+<tr><td>Median</td><td>94,000,000</td></tr>
+<tr><td>Mean</td><td>389,533,754.17</td></tr>
+<tr><td>Maximum</td><td>5,564,800,000</td></tr>
+<tr><td>Skewness</td><td>4.2653</td></tr>
+<tr><td>Kurtosis</td><td>18.8914</td></tr>
+</table>
+
+<div class="alert">
+<strong>THE DIVIDING LINE:</strong><br><br>
+Bounty values at or above
+<strong>332,500,000</strong>
+Berries are classified as HIGH BOUNTY.
+</div>
+
+<h2>CLASSIFICATION BALANCE</h2>
+
+<table>
+<tr><th>Class</th><th>Count</th><th>Percentage</th></tr>
+
+<tr>
+<td>STANDARD BOUNTY</td>
+<td>108</td>
+<td>75.00%</td>
+</tr>
+
+<tr>
+<td>HIGH BOUNTY</td>
+<td>36</td>
+<td>25.00%</td>
+</tr>
+
+</table>
+
+<h2>FEATURE SIGNAL</h2>
+
+<table>
+<tr><th>Feature</th><th>Correlation with High-Bounty Target</th></tr>
+
+<tr>
+<td>has_initial</td>
+<td>0.3285</td>
+</tr>
+
+<tr>
+<td>has_d</td>
+<td>0.3285</td>
+</tr>
+
+<tr>
+<td>uppercase_count</td>
+<td>0.2782</td>
+</tr>
+
+<tr>
+<td>has_title</td>
+<td>0.2526</td>
+</tr>
+
+<tr>
+<td>vowel_count</td>
+<td>0.1369</td>
+</tr>
+
+<tr>
+<td>consonant_count</td>
+<td>0.1297</td>
+</tr>
+
+<tr>
+<td>name_length</td>
+<td>0.1286</td>
+</tr>
+
+<tr>
+<td>word_count</td>
+<td>0.1060</td>
+</tr>
+
+<tr>
+<td>name_word_max</td>
+<td>0.0523</td>
+</tr>
+
+<tr>
+<td>vowel_ratio</td>
+<td>0.0041</td>
+</tr>
+
+</table>
+
+<h2>FEATURE DICTIONARY</h2>
+
+<table>
+<tr><th>Feature</th><th>Meaning</th><th>Type</th></tr>
+
+<tr>
+<td>name_length</td>
+<td>Total characters in name</td>
+<td>Numeric</td>
+</tr>
+
+<tr>
+<td>word_count</td>
+<td>Number of words</td>
+<td>Numeric</td>
+</tr>
+
+<tr>
+<td>uppercase_count</td>
+<td>Number of uppercase letters</td>
+<td>Numeric</td>
+</tr>
+
+<tr>
+<td>vowel_count</td>
+<td>Number of vowels</td>
+<td>Numeric</td>
+</tr>
+
+<tr>
+<td>consonant_count</td>
+<td>Number of consonants</td>
+<td>Numeric</td>
+</tr>
+
+<tr>
+<td>vowel_ratio</td>
+<td>Vowels divided by name length</td>
+<td>Numeric</td>
+</tr>
+
+<tr>
+<td>has_initial</td>
+<td>Presence of an initial</td>
+<td>Binary</td>
+</tr>
+
+<tr>
+<td>has_d</td>
+<td>Presence of D.</td>
+<td>Binary</td>
+</tr>
+
+<tr>
+<td>has_title</td>
+<td>Presence of selected title</td>
+<td>Binary</td>
+</tr>
+
+<tr>
+<td>name_word_max</td>
+<td>Length of longest word</td>
+<td>Numeric</td>
+</tr>
+
+</table>
+
+<h2>FORENSIC CONCLUSION</h2>
+
+<pre>
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         CASE FILE: THE BOUNTY INCIDENT                      ║
+║                            EDA FORENSIC REPORT                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+CASE STATUS
+-----------
+Dataset: OnePiece-Bounty - Sheet1.csv
+Raw records: 165
+Usable Berry records: 144
+Unknown bounty records: 20
+Yen records excluded: 1
+Complete duplicate rows: 0
+
+BOUNTY AUTOPSY
+--------------
+Minimum bounty: 100
+Median bounty: 94,000,000
+Mean bounty: 389,533,754.17
+Maximum bounty: 5,564,800,000
+Skewness: 4.2653
+Kurtosis: 18.8914
+
+CLASSIFICATION DIVIDING LINE
+----------------------------
+75th percentile threshold: 332,500,000 Berries
+
+Classification rule:
+Bounty >= 332,500,000 -> HIGH BOUNTY
+Bounty <  332,500,000 -> STANDARD BOUNTY
+
+CLASS COUNTS
+------------
+Standard Bounty: 108
+High Bounty: 36
+
+TOP POSITIVE SIGNALS
+--------------------
+has_initial        0.328502
+has_d              0.328502
+uppercase_count    0.278236
+
+TOP NEGATIVE SIGNALS
+--------------------
+vowel_ratio      0.004051
+name_word_max    0.052324
+word_count       0.105986
+
+FEATURES
+--------
+- name_length
+- word_count
+- uppercase_count
+- vowel_count
+- consonant_count
+- vowel_ratio
+- has_initial
+- has_d
+- has_title
+- name_word_max
+
+EDA CONCLUSION
+--------------
+The bounty distribution is highly non-uniform, motivating explicit
+classification rather than treating raw bounty values as a balanced target.
+
+The 75th percentile creates a data-driven binary target. Feature engineering
+extracts structural information from pirate names so that Logistic Regression
+can estimate the probability of belonging to the High-Bounty class.
+
+The correlation table is descriptive evidence only. Final judgement of
+predictive usefulness is reserved for train/test evaluation and
+cross-validation.
+</pre>
+
+</div>
+</body>
+</html>
