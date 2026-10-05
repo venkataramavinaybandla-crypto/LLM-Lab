@@ -1,0 +1,27 @@
+SKILL 4 | LINEAR REGRESSION AND REGULARISATION | ONE PIECE BOUNTY PROJECT
+
+Rows used: 142 (Unknown bounties set aside: 20; low-bounty outliers removed: 2; yen bounty excluded: 1)
+Target: log10(bounty in Berries)
+Features: log_rank, name_len, word_count, has_initial, is_charlotte, is_placeholder, vowel_ratio
+Polynomial degree chosen by Ridge CV: 2
+
+Best model: ElasticNet (alpha=0.02219, l1_ratio=0.99)
+Test R2: 0.956 | Test RMSE (log10): 0.140 | Typical miss factor: 1.32x
+
+Model table:
+     model  train_R2  test_R2  test_RMSE  cv_RMSE  nonzero_coefs
+       OLS     0.962    0.857      0.254    0.302             35
+     Ridge     0.952    0.934      0.172    0.238             35
+     Lasso     0.940    0.957      0.140    0.206              7
+ElasticNet     0.938    0.956      0.140    0.200              7
+
+Ablation (5-fold CV R2):
+              feature_set  cv_R2_mean  cv_R2_std
+                Rank only       0.839      0.048
+Name clues only (no rank)       0.073      0.118
+        Rank + Name clues       0.848      0.034
+
+Notes:
+- rank (S.no) is derived from the bounty ordering, so it leaks the target. Name-only clues are weak predictors.
+- Plain OLS on a polynomial expansion overfits; Ridge/Lasso/ElasticNet tame it.
+- Lasso zeroes out many coefficients, Ridge only shrinks them.
